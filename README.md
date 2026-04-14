@@ -22,8 +22,8 @@ Siga os passos abaixo para preparar o arquivo no respectivo Syslog Center:
 
 Edite as variáveis principais informando o arquivo onde o rsyslog do Linux grava as saídas da porta 514, e decida onde as logs ficarão traduzidas:
 ```python
-LOG_ENTRADA = "/var/log/syslog_bruto.log" 
-LOG_SAIDA = "/var/log/syslog_filtrado.log" 
+LOG_ENTRADA = "caminho_do_log" 
+LOG_SAIDA = "caminho_do_log_formatado" 
 ```
 ### 2. Mapeamento Manual das ONUs
 
@@ -31,12 +31,12 @@ A correlação das portas PON com suas secretarias e locais de atendimento tem d
 ```python
 mapa_onus = {
     # LINHA PON 1 (1/1/1/X)
-    "1/1/1/1": "Secretaria-de-Educacao",
-    "1/1/1/2": "Escola-Municipal",
-    "1/1/1/3": "Posto-de-Saude-Bairro",
+    "1/1/1/1": "Cliente 1",
+    "1/1/1/2": "Cliente 2",
+    "1/1/1/3": "Cliente 3",
     
     # LINHA PON 2
-    "1/1/2/1": "Prefeitura-Gabinete",
+    "1/1/2/1": "Cliente 4",
 }
 ```
 ### 3. Execução do Tradutor
