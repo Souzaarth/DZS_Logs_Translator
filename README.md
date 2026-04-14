@@ -57,6 +57,10 @@ Prints Demonstrativos:
 
 Log que o CHASSI DZS manda:
 
-<img width="990" height="79" alt="image" src="https://github.com/user-attachments/assets/97101be2-ed56-4f90-82fd-45b2ca554571" />
+<img width="1007" height="75" alt="image" src="https://github.com/user-attachments/assets/6745639c-2745-40ba-8649-411d5b64e518" />
 
+
+Log depois de formatado pelo script em tempo real:
+
+<img width="992" height="48" alt="image" src="https://github.com/user-attachments/assets/91a9fe74-a4ab-4078-8a58-7cc165a2136d" />
 
