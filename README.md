@@ -51,3 +51,12 @@ Sendo prático, o script baseia-se unicamente nas bibliotecas nativas da linguag
 * `time`: Intervalo do tail para leitura do processo da máquina virtual.
 * `re` (Regex): Localização das strings de dying gasp e portas PON no texto cru.
 * `datetime` e `os`: Verificação da estampa de horário e presença do log no diretório raiz do disco.
+
+
+Prints Demonstrativos: 
+
+Log que o CHASSI DZS manda:
+
+<img width="990" height="79" alt="image" src="https://github.com/user-attachments/assets/97101be2-ed56-4f90-82fd-45b2ca554571" />
+
+
