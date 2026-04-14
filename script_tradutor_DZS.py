@@ -72,7 +72,7 @@ def processar_linha(linha):
     if evento == "Power-Failure" and onu_id == "Desconhecido":
         return None
 
-    log_final = f"{data_formatada} "ip_do_chassi" syslog - [DZS-CH001] [{evento}],mac[{nome_local}],onu[{onu_id}]\n"
+    log_final = f"{data_formatada} [IP_DO_CHASSI] syslog - [DZS-CH001] [{evento}],mac[{nome_local}],onu[{onu_id}]\n"
     return log_final
 
 if not os.path.exists(LOG_ENTRADA):
